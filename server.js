@@ -8,7 +8,7 @@ const connectDB = require('./config/dbConnect')
 const verifyJWT = require('./middlewares/verifyJWT');
 
 const PORT = process.env.PORT || 3500;
-// connectDB();
+// connectDB();je suis
 app.use(logger)
 
 app.use(express.urlencoded({ extended: false }));
